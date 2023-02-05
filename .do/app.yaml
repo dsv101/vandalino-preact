@@ -1,0 +1,20 @@
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+domains:
+- domain: vandalino.family
+  type: PRIMARY
+  zone: vandalino.family
+name: vandalino-family
+region: nyc
+static_sites:
+- build_command: npm run build
+  catchall_document: index.html
+  environment_slug: node-js
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: dsv101/vandalino-preact
+  name: vandalino-preact
+  routes:
+  - path: /
