@@ -3,7 +3,7 @@ import { h } from 'preact';
 const SaveTheDate = () => {
   return (
     <div style="max-width: 900px">
-      <img style="width: 100%" src="/assets/images/save-the-date-no-links.jpg"></img>
+      <img style="width: 100%" src="/assets/images/save-the-date-no-links.jpg" />
     </div>
   );
 };
@@ -17,8 +17,8 @@ const MoreSoon = () => {
 const Home = () => {
   return (
     <div>
-      <SaveTheDate></SaveTheDate>
-      <MoreSoon></MoreSoon>
+      <SaveTheDate />
+      <MoreSoon />
     </div>
   );
 };
