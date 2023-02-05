@@ -47,5 +47,9 @@
       "<rootDir>/tests/__mocks__/browserMocks.ts",
       "<rootDir>/tests/__mocks__/setupTests.ts"
     ]
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "8.13.x"
   }
 }
