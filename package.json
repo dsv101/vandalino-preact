@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "preact build --dest=\"_static\"",
-    "serve": "sirv build --cors --single",
+    "serve": "sirv _static --cors --single",
     "dev": "preact watch",
     "lint": "eslint src",
     "test": "jest"
