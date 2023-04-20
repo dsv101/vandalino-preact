@@ -1,4 +1,5 @@
 import { h } from 'preact';
+import { Link } from 'preact-router/match';
 
 const SaveTheDate = () => {
   return (
@@ -8,17 +9,24 @@ const SaveTheDate = () => {
   );
 };
 
-const MoreSoon = () => {
-  return (
-    <p style="font-size: 2rem; font-weight: bold">More Soon...</p>
-  );
-};
+const RegistryLink = () => (
+  <Link href="/registry">Bridal Shower Registry</Link>
+);
+
+const RSVPLink = () => (
+  <Link href="/rsvp">RSVP</Link>
+);
+
 
 const Home = () => {
   return (
     <div>
       <SaveTheDate />
-      <MoreSoon />
+      <div style="display: flex; gap: 2rem; padding: 1.5rem 0; font-size: 4rem">
+        <RegistryLink />
+        <span>|</span>
+        <RSVPLink />
+      </div>
     </div>
   );
 };
