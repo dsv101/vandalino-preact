@@ -128,7 +128,7 @@ const homeAndKitchen = (): RegistryItemGroup => ({
     wineHolder(),
     knifeBlock(),
     coupeGlasses(),
-    silverware(),
+    // silverware(),
     metalColander(),
     citrusPress(),
     vitamix(),
