@@ -24,8 +24,8 @@ const Home = () => {
       <SaveTheDate />
       <div style="display: flex; gap: 2rem; padding: 1.5rem 0; font-size: 4rem">
         <RegistryLink />
-        <span>|</span>
-        <RSVPLink />
+        {/* <span>|</span> */}
+        {/* <RSVPLink /> */}
       </div>
     </div>
   );
