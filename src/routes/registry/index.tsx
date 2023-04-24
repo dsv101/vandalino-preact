@@ -24,7 +24,7 @@ type Registry = {
 
 const wineHolder = (): RegistryItem => ({
   title: 'Sculpted 5 Bottle Wine Holder',
-  imageUrl: 'https://scontent-mia3-1.xx.fbcdn.net/v/t39.30808-6/337862956_554731729834260_814937494578009418_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=GtNvka5aaVYAX9IV9kf&_nc_ht=scontent-mia3-1.xx&oh=00_AfAPSryAhcusPQixW-iENPVJdMwTCuC4cls4Uk7L0xfDKw&oe=64462294',
+  imageUrl: 'assets/images/registry/wine-rack.jpg',
   custom: true,
   notes: null,
   vendors: [{
@@ -35,7 +35,7 @@ const wineHolder = (): RegistryItem => ({
 
 const knifeBlock = (): RegistryItem => ({
   title: 'Magnetic Knife Block',
-  imageUrl: 'https://scontent-mia3-1.xx.fbcdn.net/v/t39.30808-6/297994525_1407734429709028_6213937687613865223_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=dZnxREgKylQAX9NPImX&_nc_ht=scontent-mia3-1.xx&oh=00_AfD_RyyiZ1Q4wP3jAOPE2bv-HnW-mxQ9KFuZe3xL2W0tFg&oe=6446CFE2',
+  imageUrl: 'assets/images/registry/magnetic-knife-block.jpg',
   custom: true,
   notes: null,
   vendors: [{
@@ -46,7 +46,7 @@ const knifeBlock = (): RegistryItem => ({
 
 const chefKnives = (): RegistryItem => ({
   title: 'Damascus 4 Piece Chef\'s Knife Set',
-  imageUrl: 'https://cdn.shopify.com/s/files/1/0531/6703/0467/products/HandForgedDamascus4PieceChefsKnifeSetWithLeatherKnifeRoll_540x.jpg?v=1647111722',
+  imageUrl: 'assets/images/registry/damascus-knives.webp',
   custom: false,
   notes: null,
   vendors: [{
@@ -57,7 +57,7 @@ const chefKnives = (): RegistryItem => ({
 
 const coupeGlasses = (): RegistryItem => ({
   title: 'Hexagon Etched Coupe Cocktail Glasses',
-  imageUrl: 'https://m.media-amazon.com/images/I/61f4niZKJTS._AC_SX569_.jpg',
+  imageUrl: 'assets/images/registry/coupe-glasses.jpg',
   custom: false,
   notes: null,
   vendors: [{
@@ -68,7 +68,7 @@ const coupeGlasses = (): RegistryItem => ({
 
 const rocksGlasses = (): RegistryItem => ({
   title: 'Honeycomb Rocks Glasses',
-  imageUrl: 'https://www.collinsandcoupe.com/uploads/1/3/1/2/131299988/s882552904445137385_p1980_i1_w590.jpeg?width=2000&optimize=medium',
+  imageUrl: 'assets/images/registry/rocks-glasses.webp',
   custom: false,
   notes: null,
   vendors: [{
@@ -79,7 +79,7 @@ const rocksGlasses = (): RegistryItem => ({
 
 const silverwareMain = (): RegistryItem => ({
   title: 'Mepra Moretto Stainless Steel Flatware (5pc)',
-  imageUrl: 'https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202250/0148/mepra-moretto-stainless-steel-flatware-sets-l.jpg',
+  imageUrl: 'assets/images/registry/flatware.jpg',
   custom: false,
   notes: 'We are looking for 6 place settings.',
   vendors: [{
@@ -90,7 +90,7 @@ const silverwareMain = (): RegistryItem => ({
 
 const silverwareServing = (): RegistryItem => ({
   title: 'Mepra Moretto Stainless Steel Flatware (3pc)',
-  imageUrl: 'https://secure.img1-fg.wfcdn.com/im/58051658/resize-h755-w755%5Ecompr-r85/2136/213603402/Mepra+3+Pcs+Serving+Set+%28Fork+Spoon+and+Ladle%29+Moretto.jpg',
+  imageUrl: 'assets/images/registry/serving-flatware.webp',
   custom: false,
   notes: 'We only need one serving set.',
   vendors: [{
@@ -101,7 +101,7 @@ const silverwareServing = (): RegistryItem => ({
 
 const steakKnives = (): RegistryItem => ({
   title: 'Pakka Wood 6 Piece Steak Knife Set',
-  imageUrl: 'https://slimages.macysassets.com/is/image/MCY/products/4/optimized/10898414_fpx.tif?op_sharpen=1&wid=700&hei=855&fit=fit,1&fmt=webp',
+  imageUrl: 'assets/images/registry/steak-knives.webp',
   custom: false,
   notes: null,
   vendors: [{
@@ -112,7 +112,7 @@ const steakKnives = (): RegistryItem => ({
 
 const metalColander = (): RegistryItem => ({
   title: 'Metal Colander',
-  imageUrl: 'https://assets.wsimgs.com/wsimgs/rk/images/dp/wcm/202314/0415/img28o.jpg',
+  imageUrl: 'assets/images/registry/colander.jpg',
   custom: false,
   notes: null,
   vendors: [
@@ -129,7 +129,7 @@ const metalColander = (): RegistryItem => ({
 
 const citrusPress = (): RegistryItem => ({
   title: 'Metal Citrus Press',
-  imageUrl: 'https://assets.wsimgs.com/wsimgs/rk/images/dp/wcm/202308/0148/img41o.jpg',
+  imageUrl: 'assets/images/registry/citrus-press.jpg',
   custom: false,
   notes: null,
   vendors: [{
@@ -140,7 +140,7 @@ const citrusPress = (): RegistryItem => ({
 
 const vitamix = (): RegistryItem => ({
   title: 'Vitamix',
-  imageUrl: 'https://m.media-amazon.com/images/I/710037deVKL._AC_SL1500_.jpg',
+  imageUrl: 'assets/images/registry/vitamix.jpg',
   custom: false,
   notes: null,
   vendors: [{
@@ -151,7 +151,7 @@ const vitamix = (): RegistryItem => ({
 
 const kitchenAid = (): RegistryItem => ({
   title: 'Kitchen Aid (red)',
-  imageUrl: 'https://kitchenaid-h.assetsadobe.com/is/image/content/dam/global/kitchenaid/countertop-appliance/portable/images/hero-KSM7586PCA.tif',
+  imageUrl: 'assets/images/registry/kitchen-aid.jpg',
   custom: false,
   notes: null,
   vendors: [
@@ -164,7 +164,7 @@ const kitchenAid = (): RegistryItem => ({
 
 const dehydrater = (): RegistryItem => ({
   title: 'Food Dehydrater',
-  imageUrl: 'https://m.media-amazon.com/images/I/81x-HlXaxgL._AC_SL1500_.jpg',
+  imageUrl: 'assets/images/registry/dehydrater.jpg',
   custom: false,
   notes: null,
   vendors: [{
@@ -194,7 +194,7 @@ const homeAndKitchen = (): RegistryItemGroup => ({
 
 const biltHelmet = (): RegistryItem => ({
   title: 'Motorcycle Helmet (female xs black/pink)',
-  imageUrl: 'https://www.jpcycles.com/_a/product_images/1529/2538/bilt_vertex_parabola_helmet_black_pink_750x750.jpg',
+  imageUrl: 'assets/images/registry/bilt-helmet.jpg',
   custom: false,
   notes: null,
   vendors: [{
@@ -205,7 +205,7 @@ const biltHelmet = (): RegistryItem => ({
 
 const hjcHelmet = (): RegistryItem => ({
   title: 'Motorcycle Helmet (female xs white/pink)',
-  imageUrl: 'https://www.jpcycles.com/_a/product_images/1466/9365/hjcis_cruiser_fior_womens_helmet_750x750.jpg',
+  imageUrl: 'assets/images/registry/hjc-helmet.jpg',
   custom: false,
   notes: null,
   vendors: [{
@@ -224,7 +224,7 @@ const motorcycleGear = (): RegistryItemGroup => ({
 
 const bicycleLights = (): RegistryItem => ({
   title: 'Bicycle Lights',
-  imageUrl: 'https://m.media-amazon.com/images/I/71fZGZa7YrL._AC_SL1500_.jpg',
+  imageUrl: 'assets/images/registry/bicycle-lights.jpg',
   custom: false,
   notes: null,
   vendors: [
@@ -237,7 +237,7 @@ const bicycleLights = (): RegistryItem => ({
 
 const bikeRack = (): RegistryItem => ({
   title: 'Bicycle Luggage Rack',
-  imageUrl: 'https://m.media-amazon.com/images/I/71Qi9vtWapL._AC_SX679_.jpg',
+  imageUrl: 'assets/images/registry/bike-rack.jpg',
   custom: false,
   notes: null,
   vendors: [{
@@ -251,7 +251,7 @@ const bikeRack = (): RegistryItem => ({
 
 const bikeBasket1 = (): RegistryItem => ({
   title: 'Bicycle Basket (natural)',
-  imageUrl: 'https://m.media-amazon.com/images/I/71KUl-yuFIL._AC_SX679_.jpg',
+  imageUrl: 'assets/images/registry/bike-basket.jpg',
   custom: false,
   notes: null,
   vendors: [
