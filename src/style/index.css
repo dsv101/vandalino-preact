@@ -25,10 +25,13 @@ body {
   justify-content: center;
 }
 
-@media (max-width: 639px) {
-  #app > main {
-    margin: 0 2rem;
-  }
+.square {
+  width: 15vw;
+  height: 15vw;
+}
+
+.font-xl {
+  font-size: 4rem;
 }
 
 h1, h2, h3, p {
@@ -59,11 +62,41 @@ h1, h2, h3, p {
   .grid {
     grid-template-columns: 1fr 1fr;
   }
+  .font-xl {
+    font-size: 3rem;
+  }
+  .square {
+    width: 25vw;
+    height: 25vw;
+  }
+  
 }
 
 @media (max-width: 980px) {
   .grid {
     grid-template-columns: 1fr;
+  }
+  .font-xl {
+    font-size: 2rem;
+  }
+  .square {
+    width: 80vw;
+    height: 80vw;
+  }
+  
+}
+
+@media (max-width: 639px) {
+  .font-xl {
+    font-size: 1.5rem;
+  }
+  .square {
+    width: 65vw;
+    height: 65vw;
+  }
+  .card {
+    padding: 1rem;
+    font-size: 10pt;
   }
 }
 

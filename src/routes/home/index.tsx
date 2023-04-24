@@ -22,7 +22,7 @@ const Home = () => {
   return (
     <div>
       <SaveTheDate />
-      <div style="display: flex; gap: 2rem; padding: 1.5rem 0; font-size: 4rem">
+      <div style="display: flex; gap: 2rem; padding: 1.5rem 0" class="font-xl">
         <RegistryLink />
         {/* <span>|</span> */}
         {/* <RSVPLink /> */}

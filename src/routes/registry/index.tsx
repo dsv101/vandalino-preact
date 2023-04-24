@@ -287,7 +287,7 @@ const REGISTRY = {
 const Item = (item: RegistryItem) => (
   <div class="columns card">
     <h3>{item.title}</h3>
-    {!!item.imageUrl && <div style="width: 400px; height: 400px; overflow: hidden; display: flex; justify-content: center"><img src={item.imageUrl} style="height: 100%"></img></div>}
+    {!!item.imageUrl && <div class="square" style="overflow: hidden; display: flex; justify-content: center"><img src={item.imageUrl} style="height: 100%"></img></div>}
     {item.vendors && <div>
       <span>{item.vendors.length > 1 ? 'Vendors' : 'Vendor'}:&nbsp;</span>{ item.vendors &&
         item.vendors.map((vendor) => (
@@ -307,7 +307,7 @@ const Back = () => (
 );
 
 const Disclaimer = () => (
-  <div class="card" style="font-style: italic; line-height: 3.5rem; font-size: 3rem; font-weight: bold; text-align: center">
+  <div class="card font-xl" style="font-style: italic; font-weight: bold; text-align: center">
     <p>Gifts are Great!</p>
     <p>Experiences are better.</p>
     <p>Help us experience the world together.</p>
