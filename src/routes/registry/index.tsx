@@ -83,6 +83,9 @@ const silverwareMain = (): RegistryItem => ({
   custom: false,
   notes: 'We are looking for 6 place settings.',
   vendors: [{
+    name: 'Macy\'s',
+    url: 'https://www.macys.com/shop/product/moretto-ice-flatware-set-5-piece?ID=11776525',
+  }, {
     name: 'Pottery Barn',
     url: 'https://www.potterybarn.com/products/mepra-moretto-flatware/',
   }],
