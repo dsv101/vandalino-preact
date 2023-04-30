@@ -58,6 +58,16 @@ h1, h2, h3, p {
   gap: 1.5rem;
 }
 
+.full-width-form {
+  width: 85vw;
+  max-width: 1920px;
+}
+
+.full-width-form > * {
+  width: 100%;
+  min-height: 50vh;
+}
+
 @media (max-width: 1440px) {
   .grid {
     grid-template-columns: 1fr 1fr;

@@ -327,10 +327,17 @@ const Group = (group: RegistryItemGroup) => (
   </div>
 );
 
+const GoogleDoc = () => (
+  <div class='card' style='font-size: 16pt'>
+    <a href='https://docs.google.com/spreadsheets/d/1Br0bFislG0E_UBtrzWxSO29IP-8En6fjO-0YZWFcM1k/edit?usp=sharing' target='_blank'>Pledge an Item</a>
+  </div>
+);
+
 const Content = () => (
   <div class="columns">
     <h1>{REGISTRY.title}</h1>
     <Disclaimer></Disclaimer>
+    <GoogleDoc></GoogleDoc>
     {REGISTRY.groups.map((group) => <Group {...group}></Group>)}
   </div>
 );
