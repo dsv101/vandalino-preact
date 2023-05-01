@@ -329,7 +329,7 @@ const Group = (group: RegistryItemGroup) => (
 
 const GoogleDoc = () => (
   <div class='card' style='font-size: 16pt'>
-    <a href='https://docs.google.com/spreadsheets/d/1Br0bFislG0E_UBtrzWxSO29IP-8En6fjO-0YZWFcM1k/edit?usp=sharing' target='_blank'>Pledge an Item</a>
+    <a href='https://docs.google.com/spreadsheets/d/1Br0bFislG0E_UBtrzWxSO29IP-8En6fjO-0YZWFcM1k/edit?usp=sharing' target='_blank'>Purchased an item? List it here!</a>
   </div>
 );
 
