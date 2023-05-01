@@ -318,6 +318,12 @@ const Disclaimer = () => (
   </div>
 );
 
+const SecondDisclaimer = () => ( 
+<div class="card font-xl" style="font-style: italic; font-weight: bold; text-align: center">
+    <p>If you would like to purchase a gift, see below!</p>
+  </div>
+);
+
 const Group = (group: RegistryItemGroup) => (
   <div class="columns">
     <h2>{group.title}</h2>
@@ -337,6 +343,7 @@ const Content = () => (
   <div class="columns">
     <h1>{REGISTRY.title}</h1>
     <Disclaimer></Disclaimer>
+    <SecondDisclaimer></SecondDisclaimer>
     <GoogleDoc></GoogleDoc>
     {REGISTRY.groups.map((group) => <Group {...group}></Group>)}
   </div>
