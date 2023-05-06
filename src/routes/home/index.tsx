@@ -18,7 +18,7 @@ const MailingListLink = () => (
 );
 
 const RSVPLink = () => (
-  <Link href="/rsvp">RSVP</Link>
+  <Link href="/rsvp">Wedding RSVP</Link>
 );
 
 
@@ -30,7 +30,7 @@ const Home = () => {
         <RegistryLink />
         <MailingListLink />
         {/* <span>|</span> */}
-        {/* <RSVPLink /> */}
+        <RSVPLink />
       </div>
     </div>
   );
