@@ -14,13 +14,12 @@ const RegistryLink = () => (
 );
 
 const MailingListLink = () => (
-  <Link href="/mailing-list">Join the Mailing List</Link>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScAZPLRwE8Eg5sxPXdAIWZJWB6-olEgO--JgpzNSNzo5B3Vgg/viewform?usp=sf_link" target="_blank">Join the Mailing List</a>
 );
 
 const RSVPLink = () => (
-  <Link href="/rsvp">Wedding RSVP</Link>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSd6qbM8VW1q6Y9H8h7aUjrC47QwlDFJuzN39Wg-TFZSAj0aMg/viewform?usp=sf_link" target="_blank">Wedding RSVP</a>
 );
-
 
 const Home = () => {
   return (
