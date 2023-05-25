@@ -10,7 +10,7 @@ const SaveTheDate = () => {
 };
 
 const RegistryLink = () => (
-  <Link href="/registry">Bridal Shower Registry</Link>
+  <Link href="/registry">Registry</Link>
 );
 
 const MailingListLink = () => (
@@ -27,9 +27,8 @@ const Home = () => {
       <SaveTheDate />
       <div style="display: flex; flex-direction: column; gap: 2rem; padding: 1.5rem 0" class="font-xl">
         <RegistryLink />
-        <MailingListLink />
-        {/* <span>|</span> */}
         <RSVPLink />
+        <MailingListLink />
       </div>
     </div>
   );

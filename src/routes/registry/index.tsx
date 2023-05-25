@@ -55,17 +55,6 @@ const chefKnives = (): RegistryItem => ({
   }],
 });
 
-const coupeGlasses = (): RegistryItem => ({
-  title: 'Hexagon Etched Coupe Cocktail Glasses',
-  imageUrl: 'assets/images/registry/coupe-glasses.jpg',
-  custom: false,
-  notes: null,
-  vendors: [{
-    name: 'Amazon',
-    url: 'https://www.amazon.com/Amehla-Educated-Collection-Handblown-Teardrop/dp/B0962R937V?th=1',
-  }],
-});
-
 const rocksGlasses = (): RegistryItem => ({
   title: 'Honeycomb Rocks Glasses',
   imageUrl: 'assets/images/registry/rocks-glasses.webp',
@@ -97,7 +86,7 @@ const silverwareServing = (): RegistryItem => ({
   custom: false,
   notes: 'We only need one serving set.',
   vendors: [{
-    name: 'Watfair',
+    name: 'Wayfair',
     url: 'https://www.wayfair.com/kitchen-tabletop/pdp/mepra-3-pcs-serving-set-fork-spoon-and-ladle-moretto-ndft1375.html?piid=60430098',
   }],
 });
@@ -152,19 +141,6 @@ const vitamix = (): RegistryItem => ({
   }],
 });
 
-const kitchenAid = (): RegistryItem => ({
-  title: 'Kitchen Aid (red)',
-  imageUrl: 'assets/images/registry/kitchen-aid.jpg',
-  custom: false,
-  notes: null,
-  vendors: [
-    {
-      name: 'KitchenAid',
-      url: 'https://www.kitchenaid.com/',
-    },
-  ],
-});
-
 const dehydrater = (): RegistryItem => ({
   title: 'Food Dehydrater',
   imageUrl: 'assets/images/registry/dehydrater.jpg',
@@ -182,7 +158,6 @@ const homeAndKitchen = (): RegistryItemGroup => ({
     wineHolder(),
     knifeBlock(),
     chefKnives(),
-    coupeGlasses(),
     rocksGlasses(),
     silverwareMain(),
     silverwareServing(),
@@ -190,7 +165,6 @@ const homeAndKitchen = (): RegistryItemGroup => ({
     metalColander(),
     citrusPress(),
     vitamix(),
-    kitchenAid(),
     dehydrater(),
   ],
 });
@@ -238,39 +212,10 @@ const bicycleLights = (): RegistryItem => ({
   ],
 });
 
-const bikeRack = (): RegistryItem => ({
-  title: 'Bicycle Luggage Rack',
-  imageUrl: 'assets/images/registry/bike-rack.jpg',
-  custom: false,
-  notes: null,
-  vendors: [{
-    name: 'Amazon',
-    url: 'https://www.amazon.com/BABEIYXM-Adjustable-Aluminum-Bicycle-Install/dp/B0B7DRTPL4?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&smid=A1VY9ORCD1RFGJ&th=1',
-  }, {
-    name: 'any',
-    url: null,
-  }],
-});
-
-const bikeBasket1 = (): RegistryItem => ({
-  title: 'Bicycle Basket (natural)',
-  imageUrl: 'assets/images/registry/bike-basket.jpg',
-  custom: false,
-  notes: null,
-  vendors: [
-    {
-      name: 'Amazon',
-      url: 'https://www.amazon.com/Makimoo-Cruiser-Original-Handlebar-Classic-Handmade/dp/B098F1BKJQ?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A2FZYUZYTLXCVV',
-    }
-  ],
-});
-
 const bicycleGear = (): RegistryItemGroup => ({
   title: 'Bicycle Gear',
   items: [
     bicycleLights(),
-    bikeRack(),
-    bikeBasket1(),
   ],
 });
 
@@ -333,18 +278,18 @@ const Group = (group: RegistryItemGroup) => (
   </div>
 );
 
-const GoogleDoc = () => (
-  <div class='card' style='font-size: 16pt'>
-    <a href='https://docs.google.com/spreadsheets/d/1Br0bFislG0E_UBtrzWxSO29IP-8En6fjO-0YZWFcM1k/edit?usp=sharing' target='_blank'>Purchased an item? List it here!</a>
-  </div>
-);
+// const GoogleDoc = () => (
+//   <div class='card' style='font-size: 16pt'>
+//     <a href='https://docs.google.com/spreadsheets/d/1Br0bFislG0E_UBtrzWxSO29IP-8En6fjO-0YZWFcM1k/edit?usp=sharing' target='_blank'>Purchased an item? List it here!</a>
+//   </div>
+// );
 
 const Content = () => (
   <div class="columns">
     <h1>{REGISTRY.title}</h1>
     <Disclaimer></Disclaimer>
     <SecondDisclaimer></SecondDisclaimer>
-    <GoogleDoc></GoogleDoc>
+    {/* <GoogleDoc></GoogleDoc> */}
     {REGISTRY.groups.map((group) => <Group {...group}></Group>)}
   </div>
 );
