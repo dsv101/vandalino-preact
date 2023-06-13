@@ -55,17 +55,6 @@ const chefKnives = (): RegistryItem => ({
   }],
 });
 
-const rocksGlasses = (): RegistryItem => ({
-  title: 'Honeycomb Rocks Glasses',
-  imageUrl: 'assets/images/registry/rocks-glasses.webp',
-  custom: false,
-  notes: null,
-  vendors: [{
-    name: 'Collins and Coupe',
-    url: 'https://www.collinsandcoupe.com/product/honeycomb-rocks-glass-12oz/1980',
-  }],
-});
-
 const silverwareMain = (): RegistryItem => ({
   title: 'Mepra Moretto Stainless Steel Flatware (5pc)',
   imageUrl: 'assets/images/registry/flatware.jpg',
@@ -158,7 +147,6 @@ const homeAndKitchen = (): RegistryItemGroup => ({
     wineHolder(),
     knifeBlock(),
     chefKnives(),
-    rocksGlasses(),
     silverwareMain(),
     silverwareServing(),
     steakKnives(),
